@@ -1,0 +1,14 @@
+{
+    "name": "Members Interests",
+    "version": "1.0.6",
+    "description": "Promoting transparency in democracy.",
+    "creator": "MembersInterests.org.uk",
+    "homepage_url": "http://www.membersinterests.org.uk/",
+    "background_scripts": ["main.js"],
+    "content_scripts": ["content.js"],
+    "browser_button": {
+        "caption": "Members Interests",
+        "tooltipText": "Find MPs!",
+        "icon": "icons/button.png"
+    }
+}
