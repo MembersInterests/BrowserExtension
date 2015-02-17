@@ -13,7 +13,7 @@ MyExtension.prototype = {
 		kango.console.log('Check ServerDate');
 		
 		var request = {
-				url: 'http://membersinterests.org.uk/api/feed/datadate',
+				url: 'http://www.membersinterests.org.uk/api/feed/datadate',
 				method: 'GET',
 				async: true,
 				contentType: 'json'
@@ -28,7 +28,7 @@ MyExtension.prototype = {
 					kango.console.log('Get Data');
 					
 					var request = {
-							url: 'http://membersinterests.org.uk/api/feed/data',
+							url: 'http://www.membersinterests.org.uk/api/feed/data',
 							method: 'GET',
 							async: true,
 							contentType: 'json'
