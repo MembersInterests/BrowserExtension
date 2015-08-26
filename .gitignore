@@ -45,3 +45,8 @@ Temporary Items
 #Kango
 Output/
 Certificates/
+src/chrome/
+src/common/icons/
+src/firefox/
+src/ie/
+src/safari/
